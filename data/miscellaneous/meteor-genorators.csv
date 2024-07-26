@@ -1,0 +1,8 @@
+ID,Data Source,Website,Available Data Types,Weather Station and Date Range,Time Interval,Data Format
+1,"NOAA Local Climatological Data	https://www.ncdc.noaa.gov/cdo-web/datasets/LCD/stations/WBAN:14732/detail 
+NOAA Local Climatological Data","https://www.ncdc.noaa.gov/cdo-web/datasets/LCD/stations/WBAN:14732/detail","Air temperature, precipitation, wind speed, wind direction","La Guardia: 1990-Present","Daily and Hourly","CSV"
+2,"NOAA Global Historical Climatology Network Daily","https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00307587/detail","Precipitation","Sea Cliff: 1995-2005","Daily","CSV"
+3,"NOAA National Data Buoy Center","http://www.ndbc.noaa.gov","Air temperature, wind speed, wind direction","Western Long Island Sound: 2004-2014
+Execution Rocks: 2005-2015
+Kings Point: 1999-2015","Hourly","TXT"
+4,"NOAA Center for Operational Oceanographic Products and Services","https://tidesandcurrents.noaa.gov/stations.html?type=Water+Levels","Tide/water level","Kings Point: 1998-2015","Daily High/Low","CSV"
