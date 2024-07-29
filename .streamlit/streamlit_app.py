@@ -7,7 +7,7 @@ st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
 
-path_to_html = "/Users/emilyzhao/li-sound/mapping/bottom-do.html" 
+path_to_html = "bottom-do.html" 
 
 # Read file and keep in variable
 with open(path_to_html,'r') as f: 
