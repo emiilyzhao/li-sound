@@ -12,7 +12,7 @@ st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
 
-surface_data = pd.read_csv('data/surface_water_quality.csv')
+surface_data = pd.read_csv('/Users/emilyzhao/li-sound/.streamlit/data/processed/processed-surface.csv')
 surface_time = folium_static(mapping(surface_data))
 
 st.write("## Time Series")
