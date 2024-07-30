@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import geopandas as gpd
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_folium import folium_static
