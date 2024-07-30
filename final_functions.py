@@ -37,7 +37,7 @@ def heat_data(data):
 
     return heat_data
 
-def mapping(data):
+def map(data):
     df = heat_data(data)
     index = [s.strip()[:8] for s in data['DATE'].unique()]
     map = folium.Map(location=[40.979142, -73.08496], zoom_start=10)
