@@ -5,7 +5,7 @@ import geopandas as gpd
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_folium import folium_static
-from final_functions import mapping, time_series
+from final_functions import mapping
 
 st.title("🎈 My new app")
 st.write(
