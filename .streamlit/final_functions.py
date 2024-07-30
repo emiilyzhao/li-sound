@@ -10,7 +10,6 @@ from folium.plugins import TimeSliderChoropleth
 from folium.plugins import HeatMapWithTime
 from folium.plugins import HeatMap
 import matplotlib.pyplot as plt
-import plotly.graph_objects as go
 
 
 def heat_data(data):
@@ -44,9 +43,3 @@ def mapping(data):
     heatmap = HeatMapWithTime(df, index=index, gradient={0.2: 'blue', 0.4: 'lime', 0.6: 'yellow', 0.9: 'red'}, radius = 40)
     heatmap.add_to(map)
     return map
-
-def time_series(data):
-    index = [s.strip()[:8] for s in data['DATE'].unique()]
-    fig = go.Figure(data=go.Scatter(x=index, y=data['DISSOLVED_OXYGEN_MG_L'], mode='lines'))
-    fig.update_layout(title='Time Series of Dissolved Oxygen', xaxis_title='Index', yaxis_title='Dissolved Oxygen (mg/L)')
-    return fig

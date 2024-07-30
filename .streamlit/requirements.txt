@@ -14,4 +14,3 @@ matplotlib==3.9.0
 numpy==2.0.0
 pandas==2.2.2
 streamlit_folium==0.21.0
-plotly.graph_objects==4.14.3
