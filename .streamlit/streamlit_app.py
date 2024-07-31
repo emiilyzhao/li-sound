@@ -7,9 +7,9 @@ import streamlit.components.v1 as components
 from streamlit_folium import folium_static
 from final_functions import mapping
 
-st.title("🎈 My new app")
+st.title("Long Island Sound Coastal Database")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Preview aquatic pollution data in Long Island Sound."
 )
 
 surface_data = pd.read_csv('https://raw.githubusercontent.com/emiilyzhao/li-sound/main/.streamlit/data/processed/processed-surface.csv')
